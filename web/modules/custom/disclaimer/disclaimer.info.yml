@@ -1,0 +1,11 @@
+name: Disclaimer
+type: module
+description: 'Test task for PHP/DRUPAL candidates'
+core: 8.x
+package: Custom
+dependencies:
+  0: node
+  1: views
+  2: menu_ui
+  4: text
+  5: user

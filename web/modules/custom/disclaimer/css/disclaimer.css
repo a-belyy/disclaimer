@@ -1,0 +1,6 @@
+.cookie-block {
+  display: none;
+  border: 2px solid rgba(255, 255, 255, 0.65)!important;
+  padding: 15px!important;
+  text-align: center;
+}

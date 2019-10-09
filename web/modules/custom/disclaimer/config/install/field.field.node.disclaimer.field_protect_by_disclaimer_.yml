@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_protect_by_disclaimer_
+    - node.type.article
+    - node.type.disclaimer
+    - node.type.page
+id: node.disclaimer.field_protect_by_disclaimer_
+field_name: field_protect_by_disclaimer_
+entity_type: node
+bundle: disclaimer
+label: 'Protect by „Disclaimer“'
+description: 'Mark which particular node is protected by „Disclaimer“.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+      page: page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: article
+field_type: entity_reference

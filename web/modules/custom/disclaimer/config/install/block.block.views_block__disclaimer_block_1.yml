@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.disclaimer
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__disclaimer_block_1
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'views_block:disclaimer-block_1'
+settings:
+  id: 'views_block:disclaimer-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }
